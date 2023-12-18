@@ -2343,6 +2343,36 @@ header .icon.circled {
   font-size: 1.25em;
 }
 
+#header #bannerButton {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  transition: color 0.1s linear;
+}
+#header #bannerButton:hover {
+  color: #f00;
+}
+
+#header #bannerButton svg {
+  fill: rgba(255, 255, 255, 0.25);
+  transition: fill 0.1s linear;
+}
+
+#header #bannerButton:hover svg {
+  fill: rgba(255, 255, 255, 1);
+}
+
+#header #bannerButton span {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
 #header hr {
   top: 1.5em;
   margin-bottom: 3em;
